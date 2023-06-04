@@ -1,4 +1,4 @@
-import { STOCK_PACKAGE_NAME } from '@microservice-poc/entities';
+import { STOCK_PACKAGE_NAME } from '@istio-demo/entities';
 import { Module } from '@nestjs/common';
 import { ClientsModule, Transport } from '@nestjs/microservices';
 import { join } from 'path';

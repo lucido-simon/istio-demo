@@ -1,11 +1,11 @@
 import {
   OrderGatewayController,
   consumers as orderConsumers,
-} from '@microservice-poc/order-gateway';
+} from '@istio-demo/order-gateway';
 import {
   StockGatewayController,
   consumers as stockConsumers,
-} from '@microservice-poc/stock-gateway';
+} from '@istio-demo/stock-gateway';
 import { Module } from '@nestjs/common';
 
 @Module({

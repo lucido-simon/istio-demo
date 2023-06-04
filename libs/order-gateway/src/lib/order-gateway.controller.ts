@@ -1,9 +1,9 @@
-import { Order, User } from '@microservice-poc/entities';
-import { AppBaseErrorToHttpFilter } from '@microservice-poc/error';
+import { Order, User } from '@istio-demo/entities';
+import { AppBaseErrorToHttpFilter } from '@istio-demo/error';
 import {
   OrderConsumerModule,
   OrderConsumerService,
-} from '@microservice-poc/order-consumer';
+} from '@istio-demo/order-consumer';
 import { Body, Controller, Get, Post, UseFilters } from '@nestjs/common';
 
 @UseFilters(AppBaseErrorToHttpFilter)

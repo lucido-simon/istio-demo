@@ -6,7 +6,7 @@ import {
   StockGRPC,
   StockServiceController,
   StockServiceControllerMethods,
-} from '@microservice-poc/entities';
+} from '@istio-demo/entities';
 import { Observable } from 'rxjs';
 import { StockProviderService } from './stock-provider.service';
 

@@ -1,9 +1,9 @@
-import { Product } from '@microservice-poc/entities';
-import { AppBaseErrorToHttpFilter } from '@microservice-poc/error';
+import { Product } from '@istio-demo/entities';
+import { AppBaseErrorToHttpFilter } from '@istio-demo/error';
 import {
   StockConsumerModule,
   StockConsumerService,
-} from '@microservice-poc/stock-consumer';
+} from '@istio-demo/stock-consumer';
 import { Body, Controller, Get, Param, Post, UseFilters } from '@nestjs/common';
 
 @UseFilters(AppBaseErrorToHttpFilter)

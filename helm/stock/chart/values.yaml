@@ -3,7 +3,7 @@
 # Declare variables to be passed into your templates.
 
 image:
-  repository: ghcr.io/polycode-lucido/microservice-poc/stock
+  repository: ghcr.io/lucido-simon/istio-demo/stock
   pullPolicy: Always
   tag: latest
 

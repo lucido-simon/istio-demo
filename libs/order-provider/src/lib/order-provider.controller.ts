@@ -5,8 +5,8 @@ import {
   OrderGRPC,
   OrderServiceController,
   OrderServiceControllerMethods,
-} from '@microservice-poc/entities';
-import { AppBaseErrorToHttpFilter } from '@microservice-poc/error';
+} from '@istio-demo/entities';
+import { AppBaseErrorToHttpFilter } from '@istio-demo/error';
 import { UseFilters } from '@nestjs/common';
 import { Observable } from 'rxjs';
 import { OrderProviderService } from './order-provider.service';

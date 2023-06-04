@@ -1,5 +1,5 @@
 {
-  "name": "@microservice-poc/order-consumer",
+  "name": "@istio-demo/order-consumer",
   "version": "0.0.1",
   "type": "commonjs"
 }

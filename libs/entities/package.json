@@ -1,5 +1,5 @@
 {
-  "name": "@microservice-poc/entities",
+  "name": "@istio-demo/entities",
   "version": "0.0.1",
   "type": "commonjs"
 }

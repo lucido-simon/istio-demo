@@ -5,7 +5,7 @@ import {
   StockServiceClient,
   STOCK_PACKAGE_NAME,
   STOCK_SERVICE_NAME,
-} from '@microservice-poc/entities';
+} from '@istio-demo/entities';
 import { Inject, Injectable, OnModuleInit } from '@nestjs/common';
 import { ClientGrpc } from '@nestjs/microservices';
 import { firstValueFrom } from 'rxjs';

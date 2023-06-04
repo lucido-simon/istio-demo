@@ -3,7 +3,7 @@
  * This is only a minimal backend to get started.
  */
 
-import { AppBaseErrorToHttpFilter } from '@microservice-poc/error';
+import { AppBaseErrorToHttpFilter } from '@istio-demo/error';
 import { Logger, ValidationPipe } from '@nestjs/common';
 import { NestFactory } from '@nestjs/core';
 

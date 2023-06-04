@@ -7,7 +7,7 @@ import {
   UserServiceClient,
   USER_PACKAGE_NAME,
   USER_SERVICE_NAME,
-} from '@microservice-poc/entities';
+} from '@istio-demo/entities';
 import { Inject, Injectable, OnModuleInit } from '@nestjs/common';
 import { ClientGrpc } from '@nestjs/microservices';
 import { firstValueFrom, lastValueFrom } from 'rxjs';

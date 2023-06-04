@@ -14,4 +14,4 @@ Make sure you have ansible package installed on your machine, then run `ansible-
 
 Let the script run, and you should be all set !
 
-The script will copy the kubeconfig file to a `~/.kube/config_polycode_<environment>` file. You still need to manually update the IP address to point to the master.
+The script will copy the kubeconfig file to a `~/.kube/config_istio-demo_<environment>` file. You still need to manually update the IP address to point to the master.

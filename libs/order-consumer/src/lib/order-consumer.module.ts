@@ -1,7 +1,7 @@
 import {
   ORDER_PACKAGE_NAME,
   USER_PACKAGE_NAME,
-} from '@microservice-poc/entities';
+} from '@istio-demo/entities';
 import { Module } from '@nestjs/common';
 import { ClientsModule, Transport } from '@nestjs/microservices';
 import { join } from 'path';

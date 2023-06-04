@@ -1,10 +1,10 @@
-import { Inventory, Product, Stock } from '@microservice-poc/entities';
+import { Inventory, Product, Stock } from '@istio-demo/entities';
 import {
   StockNotFoundError,
   ProductNotFoundError,
   InsufficientStockError,
   ProductAlreadyExistsError,
-} from '@microservice-poc/error';
+} from '@istio-demo/error';
 import { Injectable } from '@nestjs/common';
 
 @Injectable()

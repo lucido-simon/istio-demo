@@ -15,14 +15,14 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@microservice-poc/entities": ["libs/entities/src/index.ts"],
-      "@microservice-poc/error": ["libs/error/src/index.ts"],
-      "@microservice-poc/order-consumer": ["libs/order-consumer/src/index.ts"],
-      "@microservice-poc/order-gateway": ["libs/order-gateway/src/index.ts"],
-      "@microservice-poc/order-provider": ["libs/order-provider/src/index.ts"],
-      "@microservice-poc/stock-consumer": ["libs/stock-consumer/src/index.ts"],
-      "@microservice-poc/stock-gateway": ["libs/stock-gateway/src/index.ts"],
-      "@microservice-poc/stock-provider": ["libs/stock-provider/src/index.ts"]
+      "@istio-demo/entities": ["libs/entities/src/index.ts"],
+      "@istio-demo/error": ["libs/error/src/index.ts"],
+      "@istio-demo/order-consumer": ["libs/order-consumer/src/index.ts"],
+      "@istio-demo/order-gateway": ["libs/order-gateway/src/index.ts"],
+      "@istio-demo/order-provider": ["libs/order-provider/src/index.ts"],
+      "@istio-demo/stock-consumer": ["libs/stock-consumer/src/index.ts"],
+      "@istio-demo/stock-gateway": ["libs/stock-gateway/src/index.ts"],
+      "@istio-demo/stock-provider": ["libs/stock-provider/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp", "dist"]

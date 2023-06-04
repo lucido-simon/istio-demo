@@ -1,6 +1,6 @@
 apiVersion: k3d.io/v1alpha4
 kind: Simple
-network: polycode-poc-k3d
+network: istio-demo-poc-k3d
 ports:
   - port: 8082:80
     nodeFilters:
@@ -8,7 +8,7 @@ ports:
 options:
   k3s:
     extraArgs:
-      # - arg: --tls-san=https://poly-code.com
+      # - arg: --tls-san=https://istio.simonlucido.com
       #   nodeFilters:
       #     - servers:*
       - arg: --disable=traefik

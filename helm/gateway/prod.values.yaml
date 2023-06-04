@@ -6,7 +6,7 @@ replicaCount: 3
 
 ingress:
   hosts:
-    - host: inventory.poly-code.com
+    - host: istio.simonlucido.com
       paths:
         - path: /
           pathType: ImplementationSpecific

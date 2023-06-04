@@ -1,4 +1,4 @@
-import { OrderProviderModule } from '@microservice-poc/order-provider';
+import { OrderProviderModule } from '@istio-demo/order-provider';
 import { Module } from '@nestjs/common';
 
 @Module({

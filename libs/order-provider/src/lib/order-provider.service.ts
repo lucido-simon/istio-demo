@@ -1,6 +1,6 @@
-import { Order, User } from '@microservice-poc/entities';
-import { UserNotFoundError } from '@microservice-poc/error';
-import { StockConsumerService } from '@microservice-poc/stock-consumer';
+import { Order, User } from '@istio-demo/entities';
+import { UserNotFoundError } from '@istio-demo/error';
+import { StockConsumerService } from '@istio-demo/stock-consumer';
 import { Injectable } from '@nestjs/common';
 
 @Injectable()

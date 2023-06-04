@@ -5,7 +5,7 @@ import {
   UserGRPC,
   UserServiceController,
   UserServiceControllerMethods,
-} from '@microservice-poc/entities';
+} from '@istio-demo/entities';
 import { Observable } from 'rxjs';
 import { OrderProviderService } from './order-provider.service';
 

@@ -1,6 +1,6 @@
 /* eslint-disable */
 export default {
-  displayName: 'microservice-poc',
+  displayName: 'istio-demo',
   preset: '../../jest.preset.js',
   globals: {
     'ts-jest': {
@@ -12,5 +12,5 @@ export default {
     '^.+\\.[tj]s$': 'ts-jest',
   },
   moduleFileExtensions: ['ts', 'js', 'html'],
-  coverageDirectory: '../../coverage/apps/microservice-poc',
+  coverageDirectory: '../../coverage/apps/istio-demo',
 };

@@ -1,5 +1,5 @@
 {
-  "name": "@microservice-poc/error",
+  "name": "@istio-demo/error",
   "version": "0.0.1",
   "type": "commonjs"
 }
