@@ -12,15 +12,15 @@
 
 - name: Create cluster
   ansible.builtin.shell:
-    cmd: k3d cluster create inventory-poc --config /k3d/k3d_config_inventory.yaml
+    cmd: k3d cluster create istio-demo --config /k3d/k3d_config_inventory.yaml
 
 - name: Create isolated kubeconfig for the cluster
   ansible.builtin.shell:
-    cmd: k3d kubeconfig get inventory-poc > /k3d/inventory-poc
+    cmd: k3d kubeconfig get istio-demo > /k3d/istio-demo
 
 - name: Copy kubeconfig to ~.kube/
   ansible.builtin.fetch:
-    src: /k3d/inventory-poc
-    dest: ~/.kube/inventory-poc
+    src: /k3d/istio-demo
+    dest: ~/.kube/istio-demo
     flat: yes
 
